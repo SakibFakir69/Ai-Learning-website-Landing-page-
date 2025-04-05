@@ -1,3 +1,4 @@
+import BannerPage from "./components/Banner/page";
 import NavbarPage from "./components/Navbar/page";
 
 
@@ -17,6 +18,10 @@ export default function HomePage() {
 
     
     <NavbarPage/>
+    <BannerPage/>
+
+
+    
     
 
 
