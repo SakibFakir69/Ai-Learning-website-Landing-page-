@@ -14,11 +14,16 @@ export default function HomePage() {
   // this page is as / so all componenet here
 
   return (
-   <div className="px-4 border all-color">
+   <div className="px-4 border all-color  ">
 
     
-    <NavbarPage/>
+   <header className="">
+   <NavbarPage/>
+   </header>
+
+    <main className="md:py-4 py-16">
     <BannerPage/>
+    </main>
 
 
     

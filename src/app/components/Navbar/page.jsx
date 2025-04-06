@@ -32,7 +32,10 @@ function NavbarPage() {
 
   return (
     <div>
-      <div className="navbar  shadow-sm">
+      <div className="navbar  shadow-sm border border-red-200 
+  
+      
+       backdrop-blur-xl ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

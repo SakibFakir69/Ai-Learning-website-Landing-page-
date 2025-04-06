@@ -6,15 +6,16 @@ import robot from "./../../../../public/image 5.png";
 
 function BannerPage() {
   return (
-    <div className="min-h-screen border border-white">
+    <div className="  border border-white py-10 flex justify-center items-center ">
 
 
-      <section className="grid md:grid-cols-2 h-[460px]">
+      <section className="grid md:grid-cols-2 md:h-[460px] h-[580px]  ">
 
-        <div className="flex-1 border flex justify-center items-center flex-col  border-white">
+        <div className=" border flex justify-center items-center flex-col  border-white ">
           {/* text */}
 
-          <div className="text-left px-10">
+          <div className="text-left px-10 ">
+
             <h2 className="font-bold text-white md:text-4xl text-2xl">
               Let’s Horizon
             </h2>
@@ -27,11 +28,11 @@ function BannerPage() {
               </span>
             </h2>
 
-            <p className="text-white opacity-80">
+            <p className="text-white opacity-80 md:mt-3 sm:mt-1 ">
               In publishing and graphic design, Lorem ipsum is a placeholder
               text commonly used to demonstrate the visual form of a document.
             </p>
-            <button className="btn btn-primary">Learn More</button>
+            <button className="btn btn-primary md:mt-3 sm:mt-2 mt-1">Learn More</button>
           </div>
         </div>
 
@@ -42,7 +43,7 @@ function BannerPage() {
 
          
           <div className="z-50">
-            <Image src={robot} height={400} className="mt-16 z-50" />
+            <Image src={robot} height={400} className="mt-16 z-50 " />
           </div>
 
 
