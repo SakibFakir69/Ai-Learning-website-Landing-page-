@@ -43,7 +43,7 @@ function BannerPage() {
 
          
           <div className="z-50">
-            <Image src={robot} height={400} className="mt-16 z-50 " />
+            <Image src={robot} height={400} className="mt-16 z-50 " alt="Robot image " />
           </div>
 
 

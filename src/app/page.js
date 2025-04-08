@@ -1,5 +1,6 @@
 import BannerPage from "./components/Banner/page";
 import NavbarPage from "./components/Navbar/page";
+import ServicesPage from "./components/services/page";
 
 
 
@@ -23,6 +24,7 @@ export default function HomePage() {
 
     <main className="md:py-4 py-16">
     <BannerPage/>
+    <ServicesPage/>
     </main>
 
 

@@ -6,27 +6,24 @@ function NavbarPage() {
 
   const Links = (
     <>
-      <nav className="flex justify-between mt-2 p-2">
-       
-        <ul className="flex gap-3 text-white">
-          <li>
+      
+
+          <li >
             <Link href={"/"} className="text-green-300">Home</Link>
           </li>
           <li>
-            <Link href={"/about"}>About</Link>
+            <Link href={"/about"} className="text-white">About</Link>
           </li>
           <li>
-            <Link href={"/services"}>Services</Link>
+            <Link href={"/services"} className="text-white">Services</Link>
           </li>
           <li>
-            <Link href={"/contact"}>Contact</Link>
+            <Link href={"/contact"} className="text-white">Contact</Link>
           </li>
           <li>
-            <Link href={"/plan"}>Plan</Link>
+            <Link href={"/plan"} className="text-white">Plan</Link>
           </li>
-        </ul>
-     
-      </nav>
+    
     </>
   );
 
@@ -41,7 +38,7 @@ function NavbarPage() {
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-5 w-5 text-white"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -57,7 +54,7 @@ function NavbarPage() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-white rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-black text-white rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               {Links}
             </ul>
@@ -73,7 +70,18 @@ function NavbarPage() {
         <ul>
           {/* contact use */}
           <li>
-            <Link href={"/contact-us"} className="btn ">Contact us</Link>
+            <Link href={"/contact-us"} className="btn 
+            border-t-8
+            hover:border-t-4
+            hover:border-b-4
+            transition duration-300 
+            delay-200
+        
+
+
+            
+            
+            border-b-8 border-blue-300 ">Contact us</Link>
           </li>
         </ul>
         </div>
