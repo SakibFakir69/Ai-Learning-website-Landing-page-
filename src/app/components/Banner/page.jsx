@@ -37,6 +37,7 @@ function BannerPage() {
         </div>
 
         <div className=" border border-white flex justify-center ">
+          
           <div className="border h-52 w-52 shadow-amber-800 border-white  mt-30 rotate-45  shadow-2xl absolute backdrop-blur-lg filter blur-3xl bg-gradient-to-b from-blue-500 to-violet-500">
 
           </div>
