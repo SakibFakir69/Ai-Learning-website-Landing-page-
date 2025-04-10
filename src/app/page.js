@@ -1,4 +1,5 @@
 import BannerPage from "./components/Banner/page";
+import Course from "./components/courseSection/Course";
 import NavbarPage from "./components/Navbar/page";
 import ServicesPage from "./components/services/page";
 
@@ -25,6 +26,7 @@ export default function HomePage() {
     <main className="md:py-4 py-16">
     <BannerPage/>
     <ServicesPage/>
+    <Course/>
     </main>
 
 

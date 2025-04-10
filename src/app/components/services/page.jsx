@@ -6,9 +6,9 @@ function ServicesPage() {
   return (
     <div className="md:h-[450px] border border-white flex justify-center items-center">
       <section className="md:flex  gap-4 md:flex-row-reverse">
-        <div className="border border-white flex flex-1/2 flex-col">
+        <div className="border border-white flex flex-1/2 flex-col px-5  ">
           {/* text */}
-          <p className="text-white font-semibold mb-6 text-xl">Services</p>
+          <p className="text-white font-semibold mb-6 text-xl md:mt-4 mt-20">Services</p>
           <h2 className="mb-4">
             <p className="md:text-4xl text-2xl font-semibold text-white">
               Promising Care:
@@ -32,7 +32,7 @@ function ServicesPage() {
           "
           ></div>
 
-          <Image src={hand} height={400} alt="Hand" className="z-50" />
+          <Image src={hand} height={300} alt="Hand" className="z-50 md:h-[270px] h-[300px]"  />
 
         </div>
       </section>
