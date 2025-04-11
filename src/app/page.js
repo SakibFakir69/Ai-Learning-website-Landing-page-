@@ -1,6 +1,7 @@
 import BannerPage from "./components/Banner/page";
 import Course from "./components/courseSection/Course";
 import NavbarPage from "./components/Navbar/page";
+import Number from "./components/numberSection/Number";
 import ServicesPage from "./components/services/page";
 
 
@@ -27,6 +28,7 @@ export default function HomePage() {
     <BannerPage/>
     <ServicesPage/>
     <Course/>
+    <Number/>
     </main>
 
 
