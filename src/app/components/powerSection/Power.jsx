@@ -5,11 +5,12 @@ import image1 from "./../../../../public/Rectangle 23.png";
 function AboutUs() {
   return (
     <div>
-      <section className="flex p-4 border border-red-500">
+      <section className="md:flex p-4 border border-red-500 ">
 
-        <div className="p-4">
+        <div className="p-4 flex-1 border border-white">
           {/* text */}
-          <div>
+          <div className="">
+
             <p className="text-white">About us</p>
             <h3 className="text-white md:text-3xl text-xl font-semibold">
               Empowering <span className="text-green-500">People </span>By
@@ -44,9 +45,13 @@ function AboutUs() {
           </div>
         </div>
 
-        <div>
+        <div className="flex flex-1 justify-center items-center w-full md:mt-2 mt-10">
           {/* image */}
-          <Image src={image1} height={300} alt="about use image " />
+          <Image src={image1} height={300} alt="about use image "className="z-50 md:w-1/2" />
+
+          <div className="h-44 w-72 border bg-violet-500 absolute blur-3xl opacity-90 filter z-10">
+
+          </div>
         </div>
       </section>
     </div>
