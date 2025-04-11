@@ -7,6 +7,7 @@ import PowerSection from "./components/powerSection/page";
 import RobotSection from "./components/robotSection/page";
 
 import ServicesPage from "./components/services/page";
+import TeamSection from "./components/teamSection/page";
 
 
 
@@ -36,6 +37,7 @@ export default function HomePage() {
 
     <AboutUs/>
     <RobotSection/>
+    <TeamSection/>
     </main>
 
 
