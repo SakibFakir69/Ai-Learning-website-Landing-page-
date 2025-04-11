@@ -1,13 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import image1 from "./../../../../public/Rectangle 23.png";
-
+import { GoCodespaces } from "react-icons/go";
+import { AiTwotoneCode } from "react-icons/ai";
+import { GrCodepen } from "react-icons/gr";
 function AboutUs() {
   return (
     <div>
-      <section className="md:flex p-4 border border-red-500 ">
+      <section className="md:flex p-10  ">
 
-        <div className="p-4 flex-1 border border-white">
+        <div className="p-6 flex-1 ">
           {/* text */}
           <div className="">
 
@@ -28,20 +30,23 @@ function AboutUs() {
 
           <div>
             <div>
-              <p className="text-xl text-white mt-5">Machine Learning</p>
+              <p className="text-xl text-white mt-5"> <GoCodespaces className="text-red-500 font-semibold text-xl"/>Machine Learning</p>
               <span className="text-white opacity-80">
                 In publishing and graphic design, Lorem ipsum is a placeholder
                 text commonly .{" "}
               </span>
             </div>
             <div>
-              <p className="text-xl text-white mt-5 ">Machine Learning</p>
+              <p className="text-xl text-white mt-5  ">
+                <GrCodepen  className="text-xl text-green-500" /> 
+                
+                Deep Learning</p>
               <span className="opacity-80 text-white">
                 In publishing and graphic design, Lorem ipsum is a placeholder
                 text commonly .{" "}
               </span>
             </div>
-            <button>Click here</button>
+            <button className="btn rounded-tl-2xl rounded-br-2xl px-8 py-3 mt-2 bg-violet-600 text-white border-none hover:bg-black transition duration-500 delay-200 hover:shadow-2xl hover:shadow-amber-50">Click here</button>
           </div>
         </div>
 
@@ -49,7 +54,7 @@ function AboutUs() {
           {/* image */}
           <Image src={image1} height={300} alt="about use image "className="z-50 md:w-1/2" />
 
-          <div className="h-44 w-72 border bg-violet-500 absolute blur-3xl opacity-90 filter z-10">
+          <div className="h-44 w-72  bg-violet-500 absolute blur-3xl opacity-90 filter z-10">
 
           </div>
         </div>

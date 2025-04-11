@@ -2,8 +2,9 @@ import BannerPage from "./components/Banner/page";
 import Course from "./components/courseSection/Course";
 import NavbarPage from "./components/Navbar/page";
 import Number from "./components/numberSection/Number";
-import AboutUs from "./components/powerSection/Power";
-import PowerSection from "./components/powerSection/Power";
+import AboutUs from "./components/powerSection/page";
+import PowerSection from "./components/powerSection/page";
+import RobotSection from "./components/robotSection/page";
 
 import ServicesPage from "./components/services/page";
 
@@ -34,6 +35,7 @@ export default function HomePage() {
     <Number/>
 
     <AboutUs/>
+    <RobotSection/>
     </main>
 
 
