@@ -24,7 +24,7 @@ export default function HomePage() {
    <NavbarPage/>
    </header>
 
-    <main className="md:py-4 py-16">
+    <main className="md:py-4 py-16 all-color ">
     <BannerPage/>
     <ServicesPage/>
     <Course/>
