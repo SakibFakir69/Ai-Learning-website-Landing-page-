@@ -8,6 +8,7 @@ import RobotSection from "./components/robotSection/page";
 
 import ServicesPage from "./components/services/page";
 import TeamSection from "./components/teamSection/page";
+import TestimonialPage from "./components/testimonial/page";
 
 
 
@@ -38,6 +39,7 @@ export default function HomePage() {
     <AboutUs/>
     <RobotSection/>
     <TeamSection/>
+    <TestimonialPage/>
     </main>
 
 

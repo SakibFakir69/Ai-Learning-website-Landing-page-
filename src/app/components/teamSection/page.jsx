@@ -15,10 +15,10 @@ function TeamSection() {
           <p className="text-white text-xl font-semibold">Team</p>
           <h2 className="md:text-4xl text-2xl text-white font-semibold">
       
-            Our Certified <span className="text-green-500">
+            Our Certified <span className="text-green-500  mr-2">
               Scientists
             </span>
-            With
+               With
      
           </h2>
          <h2 className="text-white md:text-4xl font-semibold text-2xl">  Smart Solutions</h2>
