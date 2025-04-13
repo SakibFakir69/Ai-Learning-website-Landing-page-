@@ -4,6 +4,7 @@ import NavbarPage from "./components/Navbar/page";
 import Number from "./components/numberSection/Number";
 import AboutUs from "./components/powerSection/page";
 import PowerSection from "./components/powerSection/page";
+import PriceSection from "./components/prcingPlan/page";
 import ProjectSection from "./components/project/page";
 import RobotSection from "./components/robotSection/page";
 
@@ -42,6 +43,7 @@ export default function HomePage() {
     <TeamSection/>
     <TestimonialPage/>
     <ProjectSection/>
+    <PriceSection/>
     </main>
 
 

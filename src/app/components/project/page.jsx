@@ -14,7 +14,7 @@ function ProjectSection() {
         </div>
 
         {/*  */}
-        <section className="md:flex gap-6 md:mt-10 mt-6 p-10 justify-center items-center border border-white">
+        <section className="md:flex gap-6 md:mt-10 mt-6 p-10 justify-center items-center b">
 
         <div className="flex justify-center items-center">
           <Image src={img} height={150} alt="robot" />
