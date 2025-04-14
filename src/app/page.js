@@ -2,6 +2,7 @@ import BannerPage from "./components/Banner/page";
 import ContactPage from "./components/contact/page";
 import Course from "./components/courseSection/Course";
 import Faq from "./components/faq/page";
+import Footerpage from "./components/footer/page";
 import NavbarPage from "./components/Navbar/page";
 import Number from "./components/numberSection/Number";
 import AboutUs from "./components/powerSection/page";
@@ -48,6 +49,7 @@ export default function HomePage() {
     <PriceSection/>
     <Faq/>
     <ContactPage/>
+    <Footerpage/>
     </main>
 
 
