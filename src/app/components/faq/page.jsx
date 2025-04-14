@@ -7,7 +7,7 @@ function Faq() {
     <div className="mt-10 flex  w-full">
 
      
-     <section className="md:flex justify-center items-center w-full border border-white">
+     <section className="md:flex justify-center items-center w-full p-8">
 
      <section className="flex flex-1 justify-center mt-6">
         <div>

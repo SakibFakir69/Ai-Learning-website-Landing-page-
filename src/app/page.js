@@ -1,4 +1,5 @@
 import BannerPage from "./components/Banner/page";
+import ContactPage from "./components/contact/page";
 import Course from "./components/courseSection/Course";
 import Faq from "./components/faq/page";
 import NavbarPage from "./components/Navbar/page";
@@ -46,6 +47,7 @@ export default function HomePage() {
     <ProjectSection/>
     <PriceSection/>
     <Faq/>
+    <ContactPage/>
     </main>
 
 
