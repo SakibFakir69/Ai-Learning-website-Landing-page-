@@ -16,11 +16,11 @@ function BannerPage() {
 
           <div className="text-left px-10 ">
 
-            <h2 className="font-bold text-white md:text-4xl text-2xl">
+            <h2 className="font-bold text-white md:text-5xl text-2xl">
               Let’s Horizon
             </h2>
             <h2>
-              <span className="text-green-400 font-bold md:text-4xl text-2xl">
+              <span className="text-green-400 font-bold md:text-5xl text-2xl">
                 Robotics
               </span>{" "}
               <span className="md:text-4xl text-white text-2xl font-bold">
