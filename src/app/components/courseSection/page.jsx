@@ -1,9 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import image1 from "./../../../../public./Rectangle 9.png";
-import image2 from "./../../../../public./Rectangle 10.png";
-import image3 from "./../../../../public./Rectangle 13.png";
-import image4 from "./../../../../public./Rectangle 12.png";
 
 function Course() {
   return (
@@ -16,7 +12,7 @@ function Course() {
         <div className="md:flex gap-2 border border-white/10 p-2 rounded bg-black">
           <div className="flex justify-center items-center">
             <Image
-              src={image1}
+              src={'/Rectangle 9.png'}
               height={200}
               alt="image"
               className="rounded border"
@@ -39,7 +35,7 @@ function Course() {
         <div className="md:flex gap-2 border border-white/10 p-2 rounded bg-black">
           <div className="flex justify-center items-center">
             <Image
-              src={image2}
+              src={'/Rectangle 10.png'}
               height={200}
               alt="image"
               className="rounded border"
@@ -62,7 +58,7 @@ function Course() {
         <div className="md:flex gap-2 border border-white/10 p-2 rounded bg-black">
           <div className="flex justify-center items-center">
             <Image
-              src={image3}
+              src={'/Rectangle 13.png'}
               height={200}
               alt="image"
               className="rounded border"
@@ -85,7 +81,7 @@ function Course() {
         <div className="md:flex gap-2 border border-white/10 p-2 rounded bg-black">
           <div className="flex justify-center items-center">
             <Image
-              src={image4}
+              src={'/Rectangle 12.png'}
               height={200}
               alt="image"
               className="rounded border"
