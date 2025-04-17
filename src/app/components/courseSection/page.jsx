@@ -3,9 +3,9 @@ import Image from "next/image";
 
 function Course() {
   return (
-    <div className="flex justify-center items-center md:mt-6 mt-10 border border-white w-full">
+    <div className="flex justify-center items-center md:mt-6 mt-10  w-full">
       <section
-        className="grid md:grid-cols-2 border border-white gap-6  w-full  p-3
+        className="grid md:grid-cols-2 gap-6  w-full  p-3
         
         place-content-center"
       >
@@ -13,6 +13,7 @@ function Course() {
           <div className="flex justify-center items-center">
             <Image
               src={'/Rectangle 9.png'}
+              width={200}
               height={200}
               alt="image"
               className="rounded border"
@@ -28,7 +29,7 @@ function Course() {
             </p>
 
             <div>
-              <button className="btn">Services --</button>
+              <button className="btn">Services</button>
             </div>
           </div>
         </div>
@@ -37,6 +38,7 @@ function Course() {
             <Image
               src={'/Rectangle 10.png'}
               height={200}
+              width={200}
               alt="image"
               className="rounded border"
             />
@@ -60,6 +62,7 @@ function Course() {
             <Image
               src={'/Rectangle 13.png'}
               height={200}
+              width={200}
               alt="image"
               className="rounded border"
             />
@@ -83,6 +86,7 @@ function Course() {
             <Image
               src={'/Rectangle 12.png'}
               height={200}
+              width={200}
               alt="image"
               className="rounded border"
             />

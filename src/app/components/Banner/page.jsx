@@ -6,12 +6,12 @@ import robot from "./../../../../public/image 5.png";
 
 function BannerPage() {
   return (
-    <div className="  border border-white py-10 flex justify-center items-center ">
+    <div className="  py-10 flex justify-center items-center ">
 
 
       <section className="grid md:grid-cols-2 md:h-[460px] h-[580px]  ">
 
-        <div className=" border flex justify-center items-center flex-col  border-white ">
+        <div className=" border flex justify-center items-center flex-col   ">
           {/* text */}
 
           <div className="text-left px-10 ">
@@ -36,9 +36,9 @@ function BannerPage() {
           </div>
         </div>
 
-        <div className=" border border-white flex justify-center ">
+        <div className="  flex justify-center ">
           
-          <div className="border h-52 w-52 shadow-amber-800 border-white  mt-30 rotate-45  shadow-2xl absolute backdrop-blur-lg filter blur-3xl bg-gradient-to-b from-blue-500 to-violet-500">
+          <div className=" h-52 w-52 shadow-amber-800   mt-30 rotate-45  shadow-2xl absolute backdrop-blur-lg filter blur-3xl bg-gradient-to-b from-blue-500 to-violet-500">
 
           </div>
 

@@ -4,9 +4,9 @@ import hand from "../../../../public/image 7.png";
 
 function ServicesPage() {
   return (
-    <div className="md:h-[450px] border border-white flex justify-center items-center">
+    <div className="md:h-[450px]  flex justify-center items-center">
       <section className="md:flex  gap-4 md:flex-row-reverse">
-        <div className="border border-white flex flex-1/2 flex-col px-5  ">
+        <div className=" flex flex-1/2 flex-col px-5  ">
           {/* text */}
           <p className="text-white font-semibold mb-6 text-xl md:mt-4 mt-20">Services</p>
           <h2 className="mb-4">
@@ -23,10 +23,10 @@ function ServicesPage() {
           </span>
         </div>
 
-        <div className="border border-white flex flex-1/2 justify-center ">
+        <div className=" flex flex-1/2 justify-center ">
           {/* image */}
           <div
-            className="border h-48 w-48 shadow-amber-800 border-white  mt-14
+            className=" h-48 w-48 shadow-amber-800   mt-14
             ml-34 rotate-45  shadow-2xl absolute backdrop-blur-lg filter blur-3xl bg-gradient-to-b from-blue-500 to-violet-500
           
           "

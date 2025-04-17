@@ -31,8 +31,7 @@ function Footerpage() {
       <footer className="footer sm:footer-horizontal footer-center  p-4 text-white bg-black h-[150px]">
         <aside className="text-white">
           <p>
-            Copyright © {new Date().getFullYear()} - All right reserved by ACME
-            Industries Ltd
+            Copyright © {new Date().getFullYear()} - All right reserved by Sakib Fakir
           </p>
         </aside>
       </footer>

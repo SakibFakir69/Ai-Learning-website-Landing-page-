@@ -29,10 +29,10 @@ function NavbarPage() {
 
   return (
     <div>
-      <div className="navbar  shadow-sm border border-red-200 
+      <div className="navbar  shadow-sm 
   
       
-       backdrop-blur-xl ">
+       backdrop-blur-xl  fixed p-4">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -75,7 +75,7 @@ function NavbarPage() {
             hover:border-t-4
             hover:border-b-4
             transition duration-300 
-            delay-200
+            delay-200 mr-6
         
 
 

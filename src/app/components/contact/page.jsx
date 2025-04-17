@@ -31,17 +31,17 @@ function ContactPage() {
               />
               <input
                 type="text"
-                placeholder="Enter your name"
+                placeholder="Enter your Last name"
                 className="border p-2 rounded px-8 py-3"
               />
               <input
                 type="text"
-                placeholder="Enter your name"
+                placeholder="Enter your Email"
                 className="border p-2 rounded px-8 py-3"
               />
               <input
                 type="text"
-                placeholder="Enter your name"
+                placeholder="Enter your Number"
                 className="border p-2 rounded px-8 py-3"
               />
             </div>

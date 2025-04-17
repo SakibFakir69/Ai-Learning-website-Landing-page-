@@ -49,8 +49,12 @@ export default function HomePage() {
     <PriceSection/>
     <Faq/>
     <ContactPage/>
-    <Footerpage/>
+
     </main>
+
+    <footer>
+    <Footerpage />
+    </footer>
 
 
     
